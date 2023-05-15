@@ -1,0 +1,35 @@
+.fff {
+    background-color: rgb(238, 238, 238);
+}
+
+.color {
+    color: rgb(170, 170, 170);
+}
+
+.container .form::after {
+    position: absolute;
+    content: '';
+    width: 110%;
+    height: 1px;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10px;
+}
+
+/* .box .websites a.element.style {} */
+
+.col-2 {
+    text-decoration: none !important;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.col-2:hover {
+    background-color: #0000ff96;
+}
